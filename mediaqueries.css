@@ -1,0 +1,9 @@
+@media screen and (max-width: 1115px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #food-nav  {
+        display: flex;
+    }
+}  
