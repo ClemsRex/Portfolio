@@ -14,7 +14,7 @@
         display: none;
     }
 
-    #food-nav  {
+    #food-nav  {    
         display: flex;
     }
 
@@ -23,7 +23,8 @@
         margin-top: 2rem;
     }
 
-    #profile, .section-container {
+    #profile, 
+    .section-container {
         display: block;
     }
 
@@ -52,12 +53,12 @@
 }  
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     #contact,
     footer {
         height: 40vh;
     }
-
+    
     #profile {
         height: 83vh;
         margin-bottom: 0;
